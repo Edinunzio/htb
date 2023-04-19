@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Hide Tweets from Verified Accounts",
+  "version": "1.0",
+  "description": "Hides tweets from Twitter accounts with the blue verification checkmark",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://twitter.com/*"
+      ],
+      "js": ["content_script.js"]
+    }
+  ]
+}
+
