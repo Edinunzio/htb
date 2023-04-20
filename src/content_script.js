@@ -5,7 +5,6 @@ function hideVerifiedTweets() {
   
     // Get all 'article' elements in the document
     var articles = document.getElementsByTagName("article");
-    console.log(articles);
   
     // Loop through each 'article' element
     for (let i = 0; i < articles.length; i++) {
