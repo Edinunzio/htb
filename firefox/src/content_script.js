@@ -1,5 +1,5 @@
 // Array of Twitter account usernames to exclude from hiding
-var excludedAccounts = ['StephenKing', 'KingJames'];
+var excludedAccounts = ['StephenKing', 'KingJames', 'IJasonAlexander'];
 
 function hideVerifiedTweets() {
 
